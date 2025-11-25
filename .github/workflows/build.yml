@@ -34,6 +34,6 @@ jobs:
           restore-keys: ${{ runner.os }}-m2
       - name: Build and analyze
         env:
-          SONAR_TOKEN: sqp_ca868924a45fd672083c0a2a4a8a5a2d3b80212d
-          SONAR_HOST_URL: https://sonar.myanon.dpdns.org
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=Annus1212_AbsoluteCinema_30a8411b-f1e0-498a-876a-8cdf2eac8dee -Dsonar.projectName='AbsoluteCinema'
+          SONAR_TOKEN: sqp_9b6502bae10e2c83200b05ee4b168294f623a33b
+          SONAR_HOST_URL: https://sonar.myanon.dpdns.org/
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=Annus1212_ProjectPlanner2_7cf1c969-44e4-45a5-a157-0be0f9042d28 -Dsonar.projectName='ProjectPlanner2'
